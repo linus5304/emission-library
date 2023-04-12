@@ -1,4 +1,4 @@
-import { ComponentCPU } from "../components";
+import { ComponentCPU } from "..";
 import { ComponentRAM } from "../components/ram/ram.class";
 import { ComponentSSD } from "../components/ssd/ssd.class";
 import { Usage } from "../components/usage/usage.class";

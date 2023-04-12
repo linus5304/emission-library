@@ -14,10 +14,10 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-__exportStar(require("./cpu/cpu.class"), exports);
-__exportStar(require("./ram/ram.class"), exports);
-__exportStar(require("./ssd/ssd.class"), exports);
-__exportStar(require("./usage/usage.class"), exports);
-__exportStar(require("./server/server.class"), exports);
-__exportStar(require("./types"), exports);
+__exportStar(require("./components/cpu/cpu.class"), exports);
+__exportStar(require("./components/ram/ram.class"), exports);
+__exportStar(require("./components/ssd/ssd.class"), exports);
+__exportStar(require("./components/usage/usage.class"), exports);
+__exportStar(require("./components/server/server.class"), exports);
+__exportStar(require("./components/types"), exports);
 //# sourceMappingURL=index.js.map
